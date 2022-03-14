@@ -1,0 +1,10 @@
+20:56:42 **** Incremental Build of configuration Release for project LoRaWAN_End_Node ****
+make -j8 all 
+arm-none-eabi-size   LoRaWAN_End_Node.elf 
+   text	   data	    bss	    dec	    hex	filename
+  62880	    384	   8368	  71632	  117d0	LoRaWAN_End_Node.elf
+Finished building: default.size.stdout
+ 
+
+20:56:43 Build Finished. 0 errors, 0 warnings. (took 872ms)
+

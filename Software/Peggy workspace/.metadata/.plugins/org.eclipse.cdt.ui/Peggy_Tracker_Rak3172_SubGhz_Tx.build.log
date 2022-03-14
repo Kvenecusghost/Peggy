@@ -1,0 +1,101 @@
+16:23:04 **** Incremental Build of configuration Debug for project Peggy_Tracker_Rak3172_SubGhz_Tx ****
+make -j8 all 
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Drivers/CMSIS/Include -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Utilities/misc -I../Utilities/sequencer -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Drivers/CMSIS/Include -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Utilities/misc -I../Utilities/sequencer -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Drivers/CMSIS/Include -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Utilities/misc -I../Utilities/sequencer -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Drivers/CMSIS/Include -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Utilities/misc -I../Utilities/sequencer -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o"
+In file included from ../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.c:34:
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_conf.h:30:10: fatal error: subghz.h: No such file or directory
+   30 | #include "subghz.h"
+      |          ^~~~~~~~~~
+compilation terminated.
+In file included from ../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:20:
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.h:52:2: error: #error user to provide its board definitions
+   52 | #error user to provide its board definitions
+      |  ^~~~~
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.h:88:2: error: #error user to provide its board definitions
+   88 | #error user to provide its board definitions
+      |  ^~~~~
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.h:133:2: error: #error user to provide its board definitions
+  133 | #error user to provide its board definitions
+      |  ^~~~~
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.h:164:2: error: #error user to provide its board definitions
+  164 | #error user to provide its board definitions
+      |  ^~~~~
+make: *** [Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/subdir.mk:28: Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.c:39:
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_conf.h:30:10: fatal error: subghz.h: No such file or directory
+   30 | #include "subghz.h"
+      |          ^~~~~~~~~~
+compilation terminated.
+In file included from ../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.c:26:
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_conf.h:30:10: fatal error: subghz.h: No such file or directory
+   30 | #include "subghz.h"
+      |          ^~~~~~~~~~
+compilation terminated.
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.h:210:28: error: unknown type name 'RBI_Switch_TypeDef'
+  210 | int32_t RBI_ConfigRFSwitch(RBI_Switch_TypeDef Config);
+      |                            ^~~~~~~~~~~~~~~~~~
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c: In function 'RBI_Init':
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:113:2: error: #error user to provide its board code or to call his board driver functions
+  113 | #error user to provide its board code or to call his board driver functions
+      |  ^~~~~
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c: In function 'RBI_DeInit':
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:159:2: error: #error user to provide its board code or to call his board driver functions
+  159 | #error user to provide its board code or to call his board driver functions
+      |  ^~~~~
+make: *** [Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/subdir.mk:28: Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o] Error 1
+make: *** [Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/subdir.mk:28: Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o] Error 1
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c: At top level:
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:167:28: error: unknown type name 'RBI_Switch_TypeDef'
+  167 | int32_t RBI_ConfigRFSwitch(RBI_Switch_TypeDef Config)
+      |                            ^~~~~~~~~~~~~~~~~~
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:243:2: error: #error user to provide its board code or to call his board driver functions
+  243 | #error user to provide its board code or to call his board driver functions
+      |  ^~~~~
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c: In function 'RBI_GetTxConfig':
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:266:2: error: #error user to provide its board code or to call his board driver functions
+  266 | #error user to provide its board code or to call his board driver functions
+      |  ^~~~~
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c: In function 'RBI_GetWakeUpTime':
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:289:2: error: #error user to provide its board code or to call his board driver functions
+  289 | #error user to provide its board code or to call his board driver functions
+      |  ^~~~~
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c: In function 'RBI_IsTCXO':
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:312:2: error: #error user to provide its board code or to call his board driver functions
+  312 | #error user to provide its board code or to call his board driver functions
+      |  ^~~~~
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c: In function 'RBI_IsDCDC':
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:335:2: error: #error user to provide its board code or to call his board driver functions
+  335 | #error user to provide its board code or to call his board driver functions
+      |  ^~~~~
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c: In function 'RBI_Init':
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+  119 | }
+      | ^
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c: In function 'RBI_DeInit':
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:165:1: warning: control reaches end of non-void function [-Wreturn-type]
+  165 | }
+      | ^
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c: In function 'RBI_GetTxConfig':
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:272:1: warning: control reaches end of non-void function [-Wreturn-type]
+  272 | }
+      | ^
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c: In function 'RBI_GetWakeUpTime':
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:295:1: warning: control reaches end of non-void function [-Wreturn-type]
+  295 | }
+      | ^
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c: In function 'RBI_IsTCXO':
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:318:1: warning: control reaches end of non-void function [-Wreturn-type]
+  318 | }
+      | ^
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c: In function 'RBI_IsDCDC':
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.c:341:1: warning: control reaches end of non-void function [-Wreturn-type]
+  341 | }
+      | ^
+make: *** [Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/subdir.mk:28: Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_board_if.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+16:23:05 Build Failed. 21 errors, 6 warnings. (took 496ms)
+
