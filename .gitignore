@@ -2,8 +2,7 @@
 ~$*.docx
 
 Software/Peggy workspace/en.stm32cubewl_v1.0.0/
-Software\Peggy workspace\.metadata
-Software/Peggy workspace/.meatadata/*
+Software/Peggy workspace/.metadata/*
 Software/Peggy workspace/.vscode/*
 
 Hardware/*/History
