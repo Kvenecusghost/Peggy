@@ -145,9 +145,101 @@ UniqueID=C75868AF-D9ED-4AC5-9D88-248913C7F7BA
 Description=Variant of Peggy Receiver
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
+VariationCount=5
 Variation1=Designator=XT?|UniqueId=\EJYPOZIA|Kind=1|AlternatePart= 
+Variation2=Designator=XP2|UniqueId=\KDDUHOKK|Kind=1|AlternatePart= 
+Variation3=Designator=XP1|UniqueId=\DITMDCGC|Kind=1|AlternatePart= 
+Variation4=Designator=XT3|UniqueId=\QSULXTMI|Kind=1|AlternatePart= 
+Variation5=Designator=XT2|UniqueId=\SWSTNHTG|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs\Assembly\Bill of Materials\_BOM DOC NO__BOM.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs\Fabrication\NC Drill\_PCB PN_-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs\Fabrication\NC Drill\_PCB PN_-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs\Fabrication\NC Drill\_PCB PN_.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs\Fabrication\NC Drill\_PCB PN_.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.REP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs\Design Rule Check - Peggy Receiver.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=CAGE_CODE

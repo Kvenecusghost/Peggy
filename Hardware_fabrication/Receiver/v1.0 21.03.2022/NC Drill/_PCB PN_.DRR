@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Peggy Receiver.PcbDoc   21.03.2022  0:35:12
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : _PCB PN_-RoundHoles.TXT
+ASCII SlotHoles File : _PCB PN_-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             8         PTH        0.00mm (0.00inch)
+T2      0.65mm (26mil)                                            Slot              2         PTH        0.00mm (0.00inch)
+T3      0.7mm (28mil)                                             Round             2         PTH        0.00mm (0.00inch)
+T4      0.7mm (28mil)                                             Slot              2         PTH        0.00mm (0.00inch)
+T5      0.9mm (35mil)                                             Round             8         PTH        0.00mm (0.00inch)
+T6      1mm (39mil)                                               Round             3         PTH        0.00mm (0.00inch)
+T7      1.1mm (43mil)                                             Round             7         PTH        0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              32
+
+Total Processing Time (hh:mm:ss) : 00:00:01

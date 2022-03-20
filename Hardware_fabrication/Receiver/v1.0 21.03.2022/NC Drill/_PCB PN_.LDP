@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Jedi\Documents\Peggy\Hardware\Receiver\Peggy Receiver.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=_pcb pn_-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=_pcb pn_-slotholes.txt|DrillLayers=gtl,gbl
