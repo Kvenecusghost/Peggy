@@ -172,6 +172,10 @@ Variation23=Designator=NOBOOT|UniqueId=\INKTQTBC|Kind=1|AlternatePart=
 Variation24=Designator=VBAT_ADC|UniqueId=\CNDODJQS|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=..\..\Hardware_fabrication\Tracker\v2.0 19.03.2022\BOM v2.0 19.03.2022.xlsx
+DItemRevisionGUID=
+
 [Parameter1]
 Name=CAGE_CODE
 Value=?????
