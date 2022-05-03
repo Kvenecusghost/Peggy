@@ -173,7 +173,75 @@ Variation24=Designator=VBAT_ADC|UniqueId=\CNDODJQS|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs\Fabrication\NC Drill\_PCB PN_.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs\Fabrication\NC Drill\_PCB PN_.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs\Fabrication\NC Drill\_PCB PN_.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument17]
 DocumentPath=..\..\Hardware_fabrication\Tracker\v2.0 19.03.2022\BOM v2.0 19.03.2022.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=..\..\Hardware_fabrication\Tracker\v3.0 03.05.2022\BOM v3.0 03.05.2022.xlsx
 DItemRevisionGUID=
 
 [Parameter1]
