@@ -173,54 +173,10 @@ Variation24=Designator=VBAT_ADC|UniqueId=\CNDODJQS|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GM5
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs\Fabrication\Gerber\_PCB PN_.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs\Fabrication\NC Drill\_PCB PN_.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument12]
 DocumentPath=..\..\Hardware_fabrication\Tracker\v2.0 19.03.2022\BOM v2.0 19.03.2022.xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument2]
 DocumentPath=..\..\Hardware_fabrication\Tracker\v3.0 03.05.2022\BOM v3.0 03.05.2022.xlsx
 DItemRevisionGUID=
 
@@ -356,7 +312,7 @@ OutputDir=Project Outputs
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -462,7 +418,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -548,7 +504,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -570,7 +526,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -644,7 +600,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
@@ -693,7 +649,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -801,7 +757,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -845,7 +801,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -906,7 +862,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
