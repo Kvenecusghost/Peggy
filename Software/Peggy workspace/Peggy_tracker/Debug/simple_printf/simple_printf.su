@@ -1,6 +1,0 @@
-simple_printf.c:37:13:simple_outputchar	16	static
-simple_printf.c:52:12:prints	40	static
-simple_printf.c:85:12:simple_outputi	112	static
-simple_printf.c:129:12:simple_vsprintf	72	static
-simple_printf.c:329:5:simple_printf	16	static
-simple_printf.c:341:5:simple_sprintf	28	static

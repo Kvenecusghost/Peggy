@@ -1,0 +1,1 @@
+ $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -DPCB=SPECTO_A -DSPECTO_A=1 -Wall -DXPRJ_Specto_A=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3    C:\Users\Jedi\Documents\Peggy\Software\Peggy_Tracker.X\timer1.c
