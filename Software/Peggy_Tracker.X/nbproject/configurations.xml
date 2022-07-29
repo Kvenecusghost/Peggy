@@ -10,7 +10,6 @@
       <itemPath>rfm95w.h</itemPath>
       <itemPath>spi.h</itemPath>
       <itemPath>uart.h</itemPath>
-      <itemPath>traffic_light.h</itemPath>
       <itemPath>lora.h</itemPath>
       <itemPath>timer1.h</itemPath>
     </logicalFolder>
@@ -27,7 +26,6 @@
       <itemPath>rfm95w.c</itemPath>
       <itemPath>spi.c</itemPath>
       <itemPath>uart.c</itemPath>
-      <itemPath>traffic_light.c</itemPath>
       <itemPath>lora.c</itemPath>
       <itemPath>timer1.c</itemPath>
     </logicalFolder>

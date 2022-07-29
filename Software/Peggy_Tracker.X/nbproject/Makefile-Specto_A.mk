@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=main.c timer0.c gpio.c rfm95w.c spi.c uart.c traffic_light.c lora.c timer1.c
+SOURCEFILES_QUOTED_IF_SPACED=main.c timer0.c gpio.c rfm95w.c spi.c uart.c lora.c timer1.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/main.o ${OBJECTDIR}/timer0.o ${OBJECTDIR}/gpio.o ${OBJECTDIR}/rfm95w.o ${OBJECTDIR}/spi.o ${OBJECTDIR}/uart.o ${OBJECTDIR}/traffic_light.o ${OBJECTDIR}/lora.o ${OBJECTDIR}/timer1.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/main.o.d ${OBJECTDIR}/timer0.o.d ${OBJECTDIR}/gpio.o.d ${OBJECTDIR}/rfm95w.o.d ${OBJECTDIR}/spi.o.d ${OBJECTDIR}/uart.o.d ${OBJECTDIR}/traffic_light.o.d ${OBJECTDIR}/lora.o.d ${OBJECTDIR}/timer1.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/main.o ${OBJECTDIR}/timer0.o ${OBJECTDIR}/gpio.o ${OBJECTDIR}/rfm95w.o ${OBJECTDIR}/spi.o ${OBJECTDIR}/uart.o ${OBJECTDIR}/lora.o ${OBJECTDIR}/timer1.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/main.o.d ${OBJECTDIR}/timer0.o.d ${OBJECTDIR}/gpio.o.d ${OBJECTDIR}/rfm95w.o.d ${OBJECTDIR}/spi.o.d ${OBJECTDIR}/uart.o.d ${OBJECTDIR}/lora.o.d ${OBJECTDIR}/timer1.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/main.o ${OBJECTDIR}/timer0.o ${OBJECTDIR}/gpio.o ${OBJECTDIR}/rfm95w.o ${OBJECTDIR}/spi.o ${OBJECTDIR}/uart.o ${OBJECTDIR}/traffic_light.o ${OBJECTDIR}/lora.o ${OBJECTDIR}/timer1.o
+OBJECTFILES=${OBJECTDIR}/main.o ${OBJECTDIR}/timer0.o ${OBJECTDIR}/gpio.o ${OBJECTDIR}/rfm95w.o ${OBJECTDIR}/spi.o ${OBJECTDIR}/uart.o ${OBJECTDIR}/lora.o ${OBJECTDIR}/timer1.o
 
 # Source Files
-SOURCEFILES=main.c timer0.c gpio.c rfm95w.c spi.c uart.c traffic_light.c lora.c timer1.c
+SOURCEFILES=main.c timer0.c gpio.c rfm95w.c spi.c uart.c lora.c timer1.c
 
 
 
@@ -130,12 +130,6 @@ ${OBJECTDIR}/uart.o: uart.c  .generated_files/flags/Specto_A/e19f95ed32b5e6b4837
 	@${RM} ${OBJECTDIR}/uart.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -DPCB=SPECTO_A -DSPECTO_A=1 -Wall -DXPRJ_Specto_A=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/uart.o.d" -MT "${OBJECTDIR}/uart.o.d" -MT ${OBJECTDIR}/uart.o -o ${OBJECTDIR}/uart.o uart.c 
 	
-${OBJECTDIR}/traffic_light.o: traffic_light.c  .generated_files/flags/Specto_A/a67f9b83a3e3e829c218cf354812f1de72761daa .generated_files/flags/Specto_A/7300a4ed7e27d28dcabe6ca6fcfb41256bc2446d
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/traffic_light.o.d 
-	@${RM} ${OBJECTDIR}/traffic_light.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -DPCB=SPECTO_A -DSPECTO_A=1 -Wall -DXPRJ_Specto_A=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/traffic_light.o.d" -MT "${OBJECTDIR}/traffic_light.o.d" -MT ${OBJECTDIR}/traffic_light.o -o ${OBJECTDIR}/traffic_light.o traffic_light.c 
-	
 ${OBJECTDIR}/lora.o: lora.c  .generated_files/flags/Specto_A/5ed1fcaff2b40872394110fd0035a8e413d47f56 .generated_files/flags/Specto_A/7300a4ed7e27d28dcabe6ca6fcfb41256bc2446d
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/lora.o.d 
@@ -184,12 +178,6 @@ ${OBJECTDIR}/uart.o: uart.c  .generated_files/flags/Specto_A/7ad67d0948053d29002
 	@${RM} ${OBJECTDIR}/uart.o.d 
 	@${RM} ${OBJECTDIR}/uart.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -DPCB=SPECTO_A -DSPECTO_A=1 -Wall -DXPRJ_Specto_A=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/uart.o.d" -MT "${OBJECTDIR}/uart.o.d" -MT ${OBJECTDIR}/uart.o -o ${OBJECTDIR}/uart.o uart.c 
-	
-${OBJECTDIR}/traffic_light.o: traffic_light.c  .generated_files/flags/Specto_A/2c4546189cb0a31799e416301b60c97e37a6d5fe .generated_files/flags/Specto_A/7300a4ed7e27d28dcabe6ca6fcfb41256bc2446d
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/traffic_light.o.d 
-	@${RM} ${OBJECTDIR}/traffic_light.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -DPCB=SPECTO_A -DSPECTO_A=1 -Wall -DXPRJ_Specto_A=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/traffic_light.o.d" -MT "${OBJECTDIR}/traffic_light.o.d" -MT ${OBJECTDIR}/traffic_light.o -o ${OBJECTDIR}/traffic_light.o traffic_light.c 
 	
 ${OBJECTDIR}/lora.o: lora.c  .generated_files/flags/Specto_A/f061b760f1d6b81a8916f667f60c436b56031880 .generated_files/flags/Specto_A/7300a4ed7e27d28dcabe6ca6fcfb41256bc2446d
 	@${MKDIR} "${OBJECTDIR}" 
