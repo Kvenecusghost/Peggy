@@ -329,7 +329,7 @@ OutputDir=Project Outputs
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -435,7 +435,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -521,7 +521,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -543,7 +543,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -617,7 +617,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
@@ -674,7 +674,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -782,7 +782,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -826,7 +826,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -887,7 +887,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Xerox WorkCentre 3025
+TargetPrinter=\\print-srv.otgroup.local\KONICA MINOLTA C258 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1257,9 +1257,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Connectors.SchLib
-ComponentDesignItemID0=8-Connector
-ComponentSymbolReference0=8-Connector
+ComponentLibraryIdentifier0=Discrete.SchLib
+ComponentDesignItemID0=Capacitor
+ComponentSymbolReference0=Capacitor
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=0
@@ -1291,45 +1291,76 @@ ParameterName6=Manufacturer
 ParameterUpdate6=1
 ParameterName7=Model
 ParameterUpdate7=1
-ParameterName8=Supplier 1
+ParameterName8=Value
 ParameterUpdate8=1
-ParameterName9=Supplier Part Number 1
-ParameterUpdate9=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=CON: 0533750810
+ModelName0=CAP: B32021
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=CON: BK-1279-PC8
+ModelName1=CAP: B32521
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=CON: PBD-8
+ModelName2=CAP: B32522
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=CON: PBS-8
+ModelName3=CAP: B32653A
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=CON: PLD-8
+ModelName4=CAP: B32654
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=CON: PLLD-8
+ModelName5=CAP: B32672L
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=CON: PLS2-8
+ModelName6=CAP: B32674
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=CON: PLS-8
+ModelName7=CAP: B32676
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=CON: PLS-8(90)
+ModelName8=CAP: B32774
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=CON: PWL-8
+ModelName9=CAP: B32776
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=CON: WF-08
+ModelName10=CAP: B32923
 ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=CAP: DEBB33D
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=CAP: ECW
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=CAP: EZPE
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=CH0201C
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=CH0402C
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=CH0603C
+ModelUpdate16=1
+ModelType17=PCBLIB
+ModelName17=CH0805C
+ModelUpdate17=1
+ModelType18=PCBLIB
+ModelName18=CH1206C
+ModelUpdate18=1
+ModelType19=PCBLIB
+ModelName19=CH1210C
+ModelUpdate19=1
+ModelType20=PCBLIB
+ModelName20=CH1812C
+ModelUpdate20=1
+ModelType21=PCBLIB
+ModelName21=CH2220C
+ModelUpdate21=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
