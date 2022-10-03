@@ -4,6 +4,9 @@
 Software/Peggy workspace/en.stm32cubewl_v1.0.0/
 Software/Peggy workspace/.metadata/*
 Software/Peggy workspace/.vscode/*
+Software/Peggy_Tracker.X/.generated_files
+Software/Peggy_Tracker.X/build
+Software/Peggy_Tracker.X/dist
 
 Hardware/*/History
 Hardware/*/Project Outputs
