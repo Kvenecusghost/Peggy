@@ -1,0 +1,45 @@
+Added Component: Designator=D1(MOD: SH-HC-08)
+Add component (AddParameter): Name = "ComponentKind"; Value = "Bluetooth 2.4GHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://ru.aliexpress.com/wholesale?minPrice=&maxPrice=&isBigSale=n&isFreeShip=y&isNew=n&isFavorite=n&isMobileExclusive=n&isLocalReturn=n&shipFromCountry=&shipCompanies=&SearchText=HC-06&CatId=0&initiative_id=SB_20170806222546&needQuery=y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "China"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "HC-06"; VariantName = "[No Variations]"
+Added Component: Designator=X1(CON: PLD-14)
+Add component (AddParameter): Name = "ComponentKind"; Value = "Through Hole 14 position"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/en/products/detail/adam-tech/PH2-14-UA/9830507"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Adam Tech"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "PH2-14-UA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2057-PH2-14-UA-ND"; VariantName = "[No Variations]"
+Added Component: Designator=XW1(CON: u.Fl)
+Add component (AddParameter): Name = "ComponentKind"; Value = "Surface Mount Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/en/products/detail/linx-technologies-inc/CONUFL001-SMD-T/7427732?s=N4IgTCBcDaIMIHkByBVAYgGQAxYIwFoBlAWQBF8AVEAXQF8g"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Hirose Electric Co Ltd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "CONUFL001-SMD-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "CONUFL001-SMD-TCT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=HC-08_STAT Pin=D1-1
+Added Pin To Net: NetName=HC-08_RX Pin=D1-2
+Added Pin To Net: NetName=HC-08_TX Pin=D1-3
+Added Pin To Net: NetName=GND Pin=D1-4
+Added Pin To Net: NetName=3.3V_BLE Pin=D1-5
+Added Pin To Net: NetName=3.3V_BLE Pin=D1-6
+Added Pin To Net: NetName=RFM_MOSI Pin=X1-1
+Added Pin To Net: NetName=3.3VD Pin=X1-2
+Added Pin To Net: NetName=GND Pin=X1-3
+Added Pin To Net: NetName=PF7 TDI Pin=X1-4
+Added Pin To Net: NetName=RESET Pin=X1-5
+Added Pin To Net: NetName=PF6 TDO Pin=X1-6
+Added Pin To Net: NetName=RFM_SCK Pin=X1-7
+Added Pin To Net: NetName=GND Pin=X1-8
+Added Pin To Net: NetName=RFM_MISO Pin=X1-9
+Added Pin To Net: NetName=GND Pin=X1-10
+Added Pin To Net: NetName=GND Pin=X1-11
+Added Pin To Net: NetName=GND Pin=X1-12
+Added Pin To Net: NetName=PF4 TCK Pin=X1-13
+Added Pin To Net: NetName=PF5 TMS Pin=X1-14
+Added Pin To Net: NetName=NetDD1_9 Pin=XW1-1
+Added Pin To Net: NetName=GND Pin=XW1-2
+Added Pin To Net: NetName=GND Pin=XW1-2
+Added Member To Class: ClassName=Блок МК и радиомодуля Peggy Receiver Member=Component D1 HC-08
+Added Member To Class: ClassName=Блок МК и радиомодуля Peggy Receiver Member=Component X1 PH2-14-UA
+Added Member To Class: ClassName=Блок МК и радиомодуля Peggy Receiver Member=Component XW1 u.Fl

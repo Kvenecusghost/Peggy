@@ -1,0 +1,8 @@
+Added Component: Designator=J1(CON: JUMPER_2)
+Add component (AddParameter): Name = "ComponentKind"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "China"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "PLS-2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=RESET Pin=J1-2
+Added Member To Class: ClassName=Блок МК и радиомодуля Peggy Receiver Member=Component J1 Jumper-2

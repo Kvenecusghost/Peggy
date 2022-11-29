@@ -1,0 +1,76 @@
+Change Component Comment : Designator=C4 Old Comment= New Comment=10uF
+Change Component Description : Designator=C4 Old Description= New Description=CAP CER 10UF 16V X7R 1206
+Change component parameters: Designator = "C4" ("C4"); Footprint = "CH1206C"; UniqueID = "\VEMXNXWB" ("\VEMXNXWB")
+Change component parameters (AddParameter): Name = "ComponentKind"; Value = "1206 (3216 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/en/products/detail/murata-electronics/GCM31CR71C106KA64K/2592432?s=N4IgTCBcDaIOIGECyBmAjAgSgdg2gDAGwDSAgoQCzEgC6AvkA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Model"; Value = "GCM31CR71C106KA64K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "490-14746-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C5(CH1206C)
+Add component (AddParameter): Name = "ComponentKind"; Value = "1206 (3216 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/en/products/detail/murata-electronics/GCM31CR71C106KA64K/2592432?s=N4IgTCBcDaIOIGECyBmAjAgSgdg2gDAGwDSAgoQCzEgC6AvkA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GCM31CR71C106KA64K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-14746-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C6(CH1206C)
+Add component (AddParameter): Name = "ComponentKind"; Value = "1206 (3216 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/en/products/detail/murata-electronics/GCM31CR71C106KA64K/2592432?s=N4IgTCBcDaIOIGECyBmAjAgSgdg2gDAGwDSAgoQCzEgC6AvkA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GCM31CR71C106KA64K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-14746-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C7(CH1206C)
+Add component (AddParameter): Name = "ComponentKind"; Value = "1206 (3216 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/en/products/detail/murata-electronics/GCM31CR71C106KA64K/2592432?s=N4IgTCBcDaIOIGECyBmAjAgSgdg2gDAGwDSAgoQCzEgC6AvkA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GCM31CR71C106KA64K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-14746-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C12(CH1206C)
+Add component (AddParameter): Name = "ComponentKind"; Value = "1206 (3216 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/en/products/detail/murata-electronics/GCM31CR71C106KA64K/2592432?s=N4IgTCBcDaIOIGECyBmAjAgSgdg2gDAGwDSAgoQCzEgC6AvkA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GCM31CR71C106KA64K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-14746-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C13(CH1206C)
+Add component (AddParameter): Name = "ComponentKind"; Value = "1206 (3216 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/en/products/detail/murata-electronics/GCM31CR71C106KA64K/2592432?s=N4IgTCBcDaIOIGECyBmAjAgSgdg2gDAGwDSAgoQCzEgC6AvkA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GCM31CR71C106KA64K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-14746-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C14(CH1206C)
+Add component (AddParameter): Name = "ComponentKind"; Value = "1206 (3216 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/en/products/detail/murata-electronics/GCM31CR71C106KA64K/2592432?s=N4IgTCBcDaIOIGECyBmAjAgSgdg2gDAGwDSAgoQCzEgC6AvkA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GCM31CR71C106KA64K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-14746-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=3.3VD Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=3.3V_BLE Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=VBAT Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=NetC13_1 Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=3.3V Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Member To Class: ClassName=Блок МК и радиомодуля Peggy Receiver Member=Component C5 10uF
+Added Member To Class: ClassName=Блок МК и радиомодуля Peggy Receiver Member=Component C6 10uF
+Added Member To Class: ClassName=Блок МК и радиомодуля Peggy Receiver Member=Component C7 10uF
+Added Member To Class: ClassName=Схема питания Member=Component C12 10uF
+Added Member To Class: ClassName=Схема питания Member=Component C13 10uF
+Added Member To Class: ClassName=Схема питания Member=Component C14 10uF

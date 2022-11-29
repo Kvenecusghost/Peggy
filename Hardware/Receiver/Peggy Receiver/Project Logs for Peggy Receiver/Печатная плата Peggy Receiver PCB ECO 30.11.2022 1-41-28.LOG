@@ -1,0 +1,12 @@
+Change component parameters: Designator = "D1" ("D1"); Footprint = "MOD: SH-HC-08"; UniqueID = "\JOBIMWKO" ("\JOBIMWKO")
+Change component parameters (AddParameter): Name = "ComponentKind"; Value = "Bluetooth 2.4GHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "China"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Model"; Value = "HC-08"; VariantName = "[No Variations]"
+Change component parameters: Designator = "GB1" ("GB1"); Footprint = "BAT: 34.5X52MM"; UniqueID = "\PNZUNFEU" ("\PNZUNFEU")
+Change component parameters (AddParameter): Name = "ComponentKind"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/en/products/detail/jauch-quartz/LP103450JH-PCM-PTC-2-WIRES-70MM/9560994"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Jauch Quartz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Model"; Value = "LP103450JH+PCM+PTC+2 WIRES 70MM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1908-LP103450JH+PCM+PTC+2WIRES70MM-ND"; VariantName = "[No Variations]"

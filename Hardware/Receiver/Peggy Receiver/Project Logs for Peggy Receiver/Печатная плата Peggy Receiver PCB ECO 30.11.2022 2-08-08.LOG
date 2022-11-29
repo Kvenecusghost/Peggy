@@ -1,0 +1,6 @@
+Removed Member From Class: ClassName=Блок МК и радиомодуля Peggy Receiver Member=FD1
+Removed Member From Class: ClassName=Блок МК и радиомодуля Peggy Receiver Member=FD5
+Removed Member From Class: ClassName=Блок МК и радиомодуля Peggy Receiver Member=FD6
+Added Member To Class: ClassName=Блок МК и радиомодуля Peggy Receiver Member=Component C6 10uF
+Added Member To Class: ClassName=Блок МК и радиомодуля Peggy Receiver Member=Component C9 0.1uF
+Added Member To Class: ClassName=Схема питания Member=Component C12 10uF

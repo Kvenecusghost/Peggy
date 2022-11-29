@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=X1 Old Footprint=CON: PLD-14 New Footprint=CON: TSM-107-01-T-DV
+Change Component Comment : Designator=X1 Old Comment=PH2-14-UA New Comment=TSM-107-01-T-DV
+Change component parameters: Designator = "X1" ("X1"); Footprint = "CON: PLD-14"; UniqueID = "\JKVQJGTX" ("\JKVQJGTX")
+Change component parameters (AddParameter): Name = "ComponentKind"; Value = "Connector Header Surface Mount 14 position"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/en/products/detail/samtec-inc/TSM-107-01-T-DV/2685677"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samtec Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Model"; Value = "TSM-107-01-T-DV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "SAM10810-ND"; VariantName = "[No Variations]"
