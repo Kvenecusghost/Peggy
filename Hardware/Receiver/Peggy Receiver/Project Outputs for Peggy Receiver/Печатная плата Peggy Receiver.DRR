@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Печатная плата Peggy Receiver.PcbDoc   16.12.2022  23:20:28
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Печатная плата Peggy Receiver-RoundHoles.TXT
+ASCII SlotHoles File : Печатная плата Peggy Receiver-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      16mil (0.4mm)                                             Round             497       PTH        0.00inch (0.00mm)
+T2      24mil (0.6mm)                                             Slot              2         PTH        0.00inch (0.00mm)
+T3      33mil (0.85mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T4      43mil (1.1mm)                                             Round             20        PTH        0.00inch (0.00mm)
+T5      79mil (2mm)                                               Round             2         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              523
+
+Total Processing Time (hh:mm:ss) : 00:00:00

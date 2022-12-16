@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Peggy Receiver.PrjPcb]
+   Generated File[Печатная плата Peggy Receiver.GTO]
+   Generated File[Печатная плата Peggy Receiver.GTP]
+   Generated File[Печатная плата Peggy Receiver.GTS]
+   Generated File[Печатная плата Peggy Receiver.GTL]
+   Generated File[Печатная плата Peggy Receiver.GBL]
+   Generated File[Печатная плата Peggy Receiver.GBS]
+   Generated File[Печатная плата Peggy Receiver.GBP]
+   Generated File[Печатная плата Peggy Receiver.GBO]
+   Generated File[Печатная плата Peggy Receiver.GKO]
+   Generated File[Печатная плата Peggy Receiver.RUL]
+   Generated File[Печатная плата Peggy Receiver.EXTREP]
+   Generated File[Печатная плата Peggy Receiver.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 23:21:39 On 16.12.2022

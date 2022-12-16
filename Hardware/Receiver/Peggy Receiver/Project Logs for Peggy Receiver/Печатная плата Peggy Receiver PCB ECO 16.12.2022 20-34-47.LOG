@@ -1,0 +1,30 @@
+Change Component Comment : Designator=X1 Old Comment= New Comment=PH2-14-UA
+Change component parameters: Designator = "R3" ("R3"); Footprint = "RESC1608X55X25NL10T15"; UniqueID = "\LTORCRHC" ("\LTORCRHC")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Component Comment"; Value = " "; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "155∞C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55∞C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "100mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X1" ("X1"); Footprint = "CON: PLD-14_SHIFTED"; UniqueID = "\JNQMJXMQ" ("\JNQMJXMQ")
+Change component parameters (AddParameter): Name = "ComponentKind"; Value = "Connector Header Through Hole 14 position"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/en/products/detail/adam-tech/PH2-14-UA/9830507"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Adam Tech"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Model"; Value = "PH2-14-UA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2057-PH2-14-UA-ND"; VariantName = "[No Variations]"
+Added Component: Designator=GB2(BAT: 34.5X52MM)
+Add component (AddParameter): Name = "ComponentKind"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/en/products/detail/jauch-quartz/LP103450JH-PCM-PTC-2-WIRES-70MM/9560994"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Jauch Quartz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "LP103450JH+PCM+PTC+2 WIRES 70MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1908-LP103450JH+PCM+PTC+2WIRES70MM-ND"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=—ıÂÏ‡ ÔËÚ‡ÌËˇ Member=Component GB2 LP103450JH+PCM+PTC+2 WIRES 70MM
